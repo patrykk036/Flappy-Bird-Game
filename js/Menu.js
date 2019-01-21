@@ -80,7 +80,7 @@ function Menu(){
     this.drawInfo = function(){
         ctx.drawImage(endBoardImage, 340, 125, 320, 350);
         ctx.fillStyle = "white";
-        ctx.fillText("Right mouse button:" , 490, 190);
+        ctx.fillText("Left mouse button:" , 490, 190);
         ctx.fillStyle = "#40719C";   
         ctx.fillText("JUMP" , 490, 230);
         ctx.fillStyle = "white"; 
