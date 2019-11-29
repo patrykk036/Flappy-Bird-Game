@@ -8,7 +8,7 @@ giftImage.addEventListener('load', function(){
     ctx.drawImage(giftImage, 30, 30, 40, 40);
 });
 
-giftImage.src = 'assets/gift.png';
+giftImage.src = 'assets/winko.png';
 
 function init(){
     for(let i = 0 ; i < 17 ; i++){

@@ -2,7 +2,7 @@ const giftImage = new Image();
 giftImage.addEventListener('load', function(){
     ctx.drawImage(giftImage, 30, 30, 40, 40);
 });
-giftImage.src = 'assets/gift.png';
+giftImage.src = 'assets/winko.png';
 
 function Gift(){
     this.x = santa.x + 10;
@@ -15,7 +15,7 @@ function Gift(){
     this.draw = function(){
         ctx.drawImage(giftImage, this.x, this.y, this.size, this.size);
         if(game.status === "fly"){
-            ctx.drawImage(giftImage, 30, 30, 40, 40);
+            ctx.drawImage(giftImage, 30, 30, 40, 60);
             ctx.drawImage(brickImage, 30, 90, 42, 42);
         }
     };
